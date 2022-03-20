@@ -1,5 +1,6 @@
 import './App.css';
 import Countries from './Components/Countries/Countries';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
@@ -8,6 +9,8 @@ function App() {
     </div>
   );
 }
+
+
 // const Countries = () => {
 //   const [countries, setCountries] = useState([]);
 //     useEffect(() => {
